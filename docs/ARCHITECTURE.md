@@ -57,7 +57,3 @@ Client -> /transfer -> txhash verify -> vendor module -> response -> metrics+log
 ## CI/CD
 - Build -> Terraform apply -> Health check -> Post-deploy tests -> Artifact DORA
 - Fail-fast on tests
-
-## Security Notes
-- TLS 可在反向代理/Nginx/Traefik 层（本地略）
-- Secrets（本地模拟，云上建议 SSM/Vault）
