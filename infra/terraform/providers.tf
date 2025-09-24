@@ -8,6 +8,4 @@ terraform {
   required_version = ">= 1.6.0"
 }
 
-provider "docker" {
-  host = "unix://${pathexpand("~/.docker/run/docker.sock")}"
-}
+provider "docker" {}
