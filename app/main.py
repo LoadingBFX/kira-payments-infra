@@ -7,7 +7,6 @@ import json
 import logging
 import sys
 
-# 结构化 JSON 日志
 logger = logging.getLogger("uvicorn")
 handler = logging.StreamHandler(sys.stdout)
 formatter = logging.Formatter('%(message)s')
